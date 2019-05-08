@@ -20,6 +20,11 @@ gem 'devise', '~> 4.6', '>= 4.6.2'
 gem 'simple_form', '~> 4.1'
 gem 'bootstrap', '~> 4.3', '>= 4.3.1'
 gem 'jquery-rails', '~> 4.3', '>= 4.3.3'
+gem 'aws-sdk', '~> 3.0', '>= 3.0.1'
+gem 'paperclip', '~> 6.1'
+gem 's3_direct_upload', '~> 0.1.7'
+gem 'dotenv-rails', '~> 2.7', '>= 2.7.2'
+gem 'figaro', '~> 1.1', '>= 1.1.1'
 
 # Use CoffeeScript for .coffee assets and views
 gem 'coffee-rails', '~> 4.2'

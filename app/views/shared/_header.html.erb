@@ -1,10 +1,10 @@
-<nav class="navbar navbar-expand-lg navbar-light bg-white border-bottom">
+<nav class="navbar navbar-expand-lg navbar-light bg-none border-bottom px-4">
     <a class="navbar-brand" href="<%= root_path %>">Ben Trinh</a>
 
     <div class="form-inline my-2 my-lg-0 dropdown ml-auto">
         <% if current_user.present? %>
             <a class="nav-link text-dark dropdown-toggle text-decoration-none" href="#" id="navbarDropdown" role="button" data-toggle="dropdown">
-                <%= current_user.first_name %>
+                <%= current_user.avatar.url %>
             </a>
             <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdown">
                 <a class="dropdown-item text-decoration-none" href="#">Profile</a>
